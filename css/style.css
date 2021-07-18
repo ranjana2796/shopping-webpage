@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-bg-color: #2196f3;
+}
+
+/* header section */
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    font-size: large;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 322px;
+    height: 27px;
+    padding: 3px 12px;
+    margin: 0 16px 0 56px;
+    border-radius: 36px;
+    border: 1px solid #2196f3;
+}
+
+.search button {
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+/* main section */
+
+.slider {
+    width: 90vw;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.card-head{
+
+    max-width: 91vw;
+    margin: 3px auto;
+    
+}
+
+
+.card{
+    max-width: 91vw;
+    margin: 10px auto;
+}
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+
+
+/* footer section */
+
+footer {
+    height: 3vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
